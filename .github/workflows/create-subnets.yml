@@ -8,6 +8,7 @@ on:
       - get-subnets.py
   schedule:
     - cron: '16 7 * * 1'
+  workflow_dispatch:
 
 permissions:
   contents: write
