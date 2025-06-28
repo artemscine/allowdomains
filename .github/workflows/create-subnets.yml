@@ -6,8 +6,6 @@ on:
     paths:
       - .github/workflows/create-subnets.yml
       - get-subnets.py
-  schedule:
-    - cron: '16 7 * * 1'
   workflow_dispatch:
 
 permissions:
